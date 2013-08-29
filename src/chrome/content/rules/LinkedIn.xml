@@ -48,6 +48,9 @@
 	<rule from="^http://(?:www\.)?linkedin\.com/(img/|reg/join|mpr/)"
 		to="https://www.linkedin.com/$1" />
 
+        <rule from="^http://community\.linkedin\.com/"
+		to="https://community.linkedin.com" >
+
 	<!--	Akamai.
 			-->
 	<rule from="^http://media(?:0[1-4])?\.linkedin\.com/"
